@@ -1,0 +1,7 @@
+[project]
+name = "tachiyomicbz"
+version = "0.1.0"
+description = "Python script for converting Tachiyomi's traditional folder w/ images in it for each chapter to a single .cbz file for each chapter"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = []
