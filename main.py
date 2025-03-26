@@ -174,7 +174,7 @@ def cbz_search(curr_dirr_name, folder_list):
     )  # done here leave this folder (could be the comic, could be the source)
 
 
-if __name__ == "__main__":
+def main():
     # Start in tachiyomi
     ABSOLUTE_PATH = os.path.abspath(
         tachiyomi_path
@@ -249,3 +249,6 @@ if __name__ == "__main__":
         VERBOSITY_PRINT(
             0, "    Folders containing the chapter pictures WERE NOT deleted."
         )
+
+if __name__ == "__main__":
+    main()
